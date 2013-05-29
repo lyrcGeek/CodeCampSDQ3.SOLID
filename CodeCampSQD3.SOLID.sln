@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleResponsabilityPrinciple", "SimpleResponsabilityPrinciple\SimpleResponsabilityPrinciple.csproj", "{9964B61E-FF40-4658-AB21-AB327BF3A83A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosePrinciple", "OpenClosePrinciple\OpenClosePrinciple.csproj", "{C22CB6E2-F097-43A0-934B-337922ED8A7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiscovSustitutionPrinciple", "LiscovSustitutionPrinciple\LiscovSustitutionPrinciple.csproj", "{66D09FEE-88F7-4676-ADC3-13A933928490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{41DF4532-4938-4BFB-8513-3A73E6E1FDA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInversionPrinciple", "DependencyInversionPrinciple\DependencyInversionPrinciple.csproj", "{7BF6EC8D-0780-4165-B46A-52F5D0FACC42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - SRP", "01 - SRP", "{E0257563-85B8-450F-B45B-C4186D6C1959}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - OCP", "02 - OCP", "{D643F4F8-E077-4255-A68A-993B2E8DC38D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - LSP", "03 - LSP", "{12FAD6B7-9785-4577-B78D-30B69A9A2CA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - ISP", "04 - ISP", "{B6FF1032-A948-4944-8836-424AE2CF2169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05 - DIP", "05 - DIP", "{F8E15327-BFB8-47AA-B598-E70A01F74552}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9964B61E-FF40-4658-AB21-AB327BF3A83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9964B61E-FF40-4658-AB21-AB327BF3A83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9964B61E-FF40-4658-AB21-AB327BF3A83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9964B61E-FF40-4658-AB21-AB327BF3A83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22CB6E2-F097-43A0-934B-337922ED8A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22CB6E2-F097-43A0-934B-337922ED8A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22CB6E2-F097-43A0-934B-337922ED8A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22CB6E2-F097-43A0-934B-337922ED8A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D09FEE-88F7-4676-ADC3-13A933928490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D09FEE-88F7-4676-ADC3-13A933928490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D09FEE-88F7-4676-ADC3-13A933928490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D09FEE-88F7-4676-ADC3-13A933928490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41DF4532-4938-4BFB-8513-3A73E6E1FDA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41DF4532-4938-4BFB-8513-3A73E6E1FDA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41DF4532-4938-4BFB-8513-3A73E6E1FDA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41DF4532-4938-4BFB-8513-3A73E6E1FDA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF6EC8D-0780-4165-B46A-52F5D0FACC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF6EC8D-0780-4165-B46A-52F5D0FACC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF6EC8D-0780-4165-B46A-52F5D0FACC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF6EC8D-0780-4165-B46A-52F5D0FACC42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9964B61E-FF40-4658-AB21-AB327BF3A83A} = {E0257563-85B8-450F-B45B-C4186D6C1959}
+		{C22CB6E2-F097-43A0-934B-337922ED8A7D} = {D643F4F8-E077-4255-A68A-993B2E8DC38D}
+		{66D09FEE-88F7-4676-ADC3-13A933928490} = {12FAD6B7-9785-4577-B78D-30B69A9A2CA2}
+		{41DF4532-4938-4BFB-8513-3A73E6E1FDA1} = {B6FF1032-A948-4944-8836-424AE2CF2169}
+		{7BF6EC8D-0780-4165-B46A-52F5D0FACC42} = {F8E15327-BFB8-47AA-B598-E70A01F74552}
+	EndGlobalSection
+EndGlobal
