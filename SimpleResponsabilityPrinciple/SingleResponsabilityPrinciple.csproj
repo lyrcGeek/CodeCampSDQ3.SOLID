@@ -7,8 +7,8 @@
     <ProjectGuid>{9964B61E-FF40-4658-AB21-AB327BF3A83A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SimpleResponsabilityPrinciple</RootNamespace>
-    <AssemblyName>SimpleResponsabilityPrinciple</AssemblyName>
+    <RootNamespace>SigleResponsabilityPrinciple</RootNamespace>
+    <AssemblyName>SingleResponsabilityPrinciple</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
