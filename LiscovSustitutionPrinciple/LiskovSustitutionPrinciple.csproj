@@ -7,8 +7,8 @@
     <ProjectGuid>{66D09FEE-88F7-4676-ADC3-13A933928490}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LiscovSustitutionPrinciple</RootNamespace>
-    <AssemblyName>LiscovSustitutionPrinciple</AssemblyName>
+    <RootNamespace>LiskovSustitutionPrinciple</RootNamespace>
+    <AssemblyName>LiskovSustitutionPrinciple</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
