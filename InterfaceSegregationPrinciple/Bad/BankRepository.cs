@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LiskovSustitutionPrinciple.Bad
+namespace InterfaceSegregationPrinciple.Bad
 {
     public class BankRepository : IRepository<Bank>
     {
@@ -32,6 +32,7 @@ namespace LiskovSustitutionPrinciple.Bad
         public IEnumerable<Bank> GetAll()
         {
             //Logic to get Array of Banks
+            return new List<Bank>();
         }
     }
 }

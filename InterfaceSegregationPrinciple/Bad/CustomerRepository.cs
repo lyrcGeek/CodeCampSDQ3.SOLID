@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace LiskovSustitutionPrinciple.Bad
+namespace InterfaceSegregationPrinciple.Bad
 {
     public class CustomerRepository : IRepository<Customer>
     {
@@ -15,12 +15,12 @@ namespace LiskovSustitutionPrinciple.Bad
 
         public void Update(Customer entity)
         {
-            //Logic to Update Customer Data
+            //Logic to Update Customer
         }
 
         public void Delete(Customer entity)
         {
-            //Ups, we have real problem, customers can't be deleted, at this point start Violation of ISP
+            //Upsssss, we have problem,s customers can't be deleted, at this point start the  Violation of ISP
             throw new NotImplementedException();
         }
 
@@ -33,6 +33,7 @@ namespace LiskovSustitutionPrinciple.Bad
         public IEnumerable<Customer> GetAll()
         {
             //Logic to Get Array of Customers
+            return new List<Customer>();
         }
     }
 }

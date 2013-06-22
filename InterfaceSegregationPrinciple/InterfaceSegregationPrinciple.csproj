@@ -44,11 +44,15 @@
     <Compile Include="Bad\IRepository.cs" />
     <Compile Include="Bank.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="Good\BankRepository.cs" />
+    <Compile Include="Good\CustomerRepository.cs" />
+    <Compile Include="Good\IBankRepository.cs" />
+    <Compile Include="Good\ICustomerRepository.cs" />
+    <Compile Include="Good\IRepository.cs" />
+    <Compile Include="Good\Repository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Good\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
