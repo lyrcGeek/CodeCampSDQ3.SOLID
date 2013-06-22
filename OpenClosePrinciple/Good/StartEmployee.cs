@@ -5,11 +5,11 @@ using System.Text;
 
 namespace OpenClosePrinciple.Good
 {
-    class EmpleadoNormal : Empleado
+    public class StartEmployee : Employee
     {
-        public override double CalcularComission()
+        public override double CalculateComission()
         {
-            double result = Ventas * 0.02;
+            double result = TotalOfSales * 0.10;
             return result;
         }
     }

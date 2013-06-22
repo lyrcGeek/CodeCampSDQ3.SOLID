@@ -39,12 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bad\PagoEmpleado.cs" />
-    <Compile Include="Bad\Empleado.cs" />
-    <Compile Include="Good\Empleado.cs" />
-    <Compile Include="Good\EmpleadoEstrella.cs" />
-    <Compile Include="Good\EmpleadoNormal.cs" />
-    <Compile Include="Good\PagoEmpleado.cs" />
+    <Compile Include="Bad\EmployeePaymentService.cs" />
+    <Compile Include="Bad\Employee.cs" />
+    <Compile Include="Good\Employee.cs" />
+    <Compile Include="Good\StartEmployee.cs" />
+    <Compile Include="Good\NormalEmployee.cs" />
+    <Compile Include="Good\EmployeePaymentService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

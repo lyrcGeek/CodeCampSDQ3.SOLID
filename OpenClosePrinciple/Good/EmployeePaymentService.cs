@@ -5,9 +5,9 @@ using System.Text;
 
 namespace OpenClosePrinciple.Good
 {
-    public class PagoEmpleado
+    public class EmployeePaymentService
     {
-        public double ObtenerSalarioNeto(Empleado empleado)
+        public double ObtenerSalarioNeto(Employee empleado)
         {
             double salarioNeto = empleado.Salario + empleado.CalcularComission();
             return salarioNeto;
