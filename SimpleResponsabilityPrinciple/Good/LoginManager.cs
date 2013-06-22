@@ -19,12 +19,12 @@ namespace SingleResponsabilityPrinciple.Good
 
         public bool AuthenticateUser(User user)
         {
-            bool result = false;
+            bool result = true;
 
             var authenticatedUser = loginDAL.Login(user);
 
-            if (authenticatedUser != null)
-                result = true;
+            if (authenticatedUser == null)
+                result = false;
 
             return result;
         }
