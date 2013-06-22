@@ -8,6 +8,6 @@ namespace LiskovSustitutionPrinciple.Good
     public abstract class Shape
     {
         public virtual int Width { get; set; }
-        public virtual int Heigth { get; set; }
+        public virtual int Height { get; set; }
     }
 }

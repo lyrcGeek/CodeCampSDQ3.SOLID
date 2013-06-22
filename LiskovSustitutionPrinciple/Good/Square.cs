@@ -9,7 +9,7 @@ namespace LiskovSustitutionPrinciple.Good
     {
         public override int Height
         {
-            get { return base.Heigth; }
+            get { return base.Height; }
             set { SetWidthAndHeight(value); }
         }
 
@@ -22,7 +22,7 @@ namespace LiskovSustitutionPrinciple.Good
         // Both sides of a square are equal.
         private void SetWidthAndHeight(int value)
         {
-            base.Heigth = value;
+            base.Height = value;
             base.Width = value;
         }
     }

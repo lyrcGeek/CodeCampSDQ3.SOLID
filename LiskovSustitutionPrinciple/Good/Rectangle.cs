@@ -19,11 +19,11 @@ namespace LiskovSustitutionPrinciple.Good
             }
         }
 
-        public override int Heigth
+        public override int Height
         {
             get
             {
-                return base.Heigth;
+                return base.Height;
             }
             set
             {
