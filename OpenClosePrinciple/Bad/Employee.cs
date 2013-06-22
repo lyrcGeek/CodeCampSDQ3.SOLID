@@ -16,6 +16,6 @@ namespace OpenClosePrinciple.Bad
     public enum EmployeeType
     {
         Normal,
-        Start
+        Star
     }
 }

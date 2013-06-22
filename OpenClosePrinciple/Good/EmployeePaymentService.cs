@@ -7,10 +7,10 @@ namespace OpenClosePrinciple.Good
 {
     public class EmployeePaymentService
     {
-        public double ObtenerSalarioNeto(Employee empleado)
+        public double GetNetSalary(Employee employee)
         {
-            double salarioNeto = empleado.Salario + empleado.CalcularComission();
-            return salarioNeto;
+            double netSalary = employee.Salary + employee.CalculateComission();
+            return netSalary;
         }
     }
 }

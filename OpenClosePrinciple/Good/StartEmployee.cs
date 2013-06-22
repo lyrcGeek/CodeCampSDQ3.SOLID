@@ -5,7 +5,7 @@ using System.Text;
 
 namespace OpenClosePrinciple.Good
 {
-    public class StartEmployee : Employee
+    public class StarEmployee : Employee
     {
         public override double CalculateComission()
         {
