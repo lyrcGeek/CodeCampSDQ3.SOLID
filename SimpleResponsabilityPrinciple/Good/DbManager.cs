@@ -44,13 +44,16 @@ namespace SingleResponsabilityPrinciple.Good
         public static void OpenConnection()
         {
             CreateConnection();
-            connection.Open();
+            if (connection.State != ConnectionState.Open)
+                connection.Open();
         }
 
         public static void CloseConnection()
         {
             CreateConnection();
-            connection.Close();
+
+            if (connection.State != ConnectionState.Closed)
+                connection.Close();
         }
 
         public static IDbCommand CreateCommand(string commandText, CommandType commandType)
