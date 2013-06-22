@@ -39,14 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bad\BankRepository.cs" />
-    <Compile Include="Bad\CustomerRepository.cs" />
-    <Compile Include="Bad\IRepository.cs" />
-    <Compile Include="Bank.cs" />
-    <Compile Include="Customer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Bad\" />
     <Folder Include="Good\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
