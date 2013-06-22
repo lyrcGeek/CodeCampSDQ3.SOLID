@@ -39,13 +39,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customer.cs" />
+    <Compile Include="Bad\CustomerRepository.cs" />
+    <Compile Include="Bad\CustomerService.cs" />
+    <Compile Include="Good\CustomerRepostiry.cs" />
+    <Compile Include="Good\CustomerService.cs" />
+    <Compile Include="Good\FakeCustomerRepository.cs" />
+    <Compile Include="Good\ICustomerService.cs" />
+    <Compile Include="ICustomerRepository.cs" />
+    <Compile Include="IocContainer\CodeCampSDQContainer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Bad\" />
-    <Folder Include="Good\" />
-    <Folder Include="IocContainer\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
