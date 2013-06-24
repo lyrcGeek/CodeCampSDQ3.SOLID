@@ -16,9 +16,14 @@ namespace LiskovSustitutionPrinciple.Bad
                 var vendor = (Vendor)person;
                 return (vendor.Salary - tax) + vendor.Comission;
             }
+            else if (person.GetType() == typeof(Secretary))
+            {
+                var secretary = (Secretary)person;
+                return (person.Salary - tax) + secretary.Incentive;
+            }
             else
             {
-                return person.Salary - tax;
+                return 0;
             }
         }
     }

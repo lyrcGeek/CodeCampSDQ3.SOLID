@@ -7,6 +7,6 @@ namespace LiskovSustitutionPrinciple.Bad
 {
     public class Secretary : Person
     {
-        public string  UniformColor { get; set; }
+        public double Incentive { get; set; }
     }
 }
