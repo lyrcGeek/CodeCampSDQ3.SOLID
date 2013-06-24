@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - I", "4 - I", "{B6FF1032
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - D", "5 - D", "{F8E15327-BFB8-47AA-B598-E70A01F74552}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCampSDQ3.SOLID.Tests", "CodeCampSDQ3.SOLID.Tests\CodeCampSDQ3.SOLID.Tests.csproj", "{F725CDDA-D4B4-4894-810C-BE5544CBE0EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{7BF6EC8D-0780-4165-B46A-52F5D0FACC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BF6EC8D-0780-4165-B46A-52F5D0FACC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BF6EC8D-0780-4165-B46A-52F5D0FACC42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F725CDDA-D4B4-4894-810C-BE5544CBE0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F725CDDA-D4B4-4894-810C-BE5544CBE0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F725CDDA-D4B4-4894-810C-BE5544CBE0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F725CDDA-D4B4-4894-810C-BE5544CBE0EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
