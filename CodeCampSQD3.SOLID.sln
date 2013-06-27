@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsabilityPrincip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosePrinciple", "OpenClosePrinciple\OpenClosePrinciple.csproj", "{C22CB6E2-F097-43A0-934B-337922ED8A7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSustitutionPrinciple", "LiskovSustitutionPrinciple\LiskovSustitutionPrinciple.csproj", "{66D09FEE-88F7-4676-ADC3-13A933928490}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiskovSubstitutionPrinciple", "LiskovSubstitutionPrinciple\LiskovSubstitutionPrinciple.csproj", "{66D09FEE-88F7-4676-ADC3-13A933928490}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceSegregationPrinciple", "InterfaceSegregationPrinciple\InterfaceSegregationPrinciple.csproj", "{41DF4532-4938-4BFB-8513-3A73E6E1FDA1}"
 EndProject
